@@ -32,11 +32,11 @@ console.log("PI:", PI);
 var globalVar = "I am a global variable";
 
 function outerFunction() {
-    // Local variable in outerFunction
+   
     var outerVar = "I am a variable in the outer function";
 
     function innerFunction() {
-        // Local variable in innerFunction
+        
         var innerVar = "I am a variable in the inner function";
 
        
@@ -48,7 +48,7 @@ function outerFunction() {
 
     innerFunction();
 
-    // Accessing variables from outerFunction
+  
     console.log("\nInside outerFunction:");
     console.log("Global variable:", globalVar); 
     console.log("Outer function variable:", outerVar); 
@@ -58,7 +58,7 @@ outerFunction();
 
 
 console.log("\nOutside all functions:");
-console.log("Global variable:", globalVar); // Accessible
+console.log("Global variable:", globalVar); 
 
 
 
@@ -91,7 +91,7 @@ scopeDemo();
 
 //////////ARITHEMATIC OPERATORS///
 
-// Numbers for demonstration
+
 let a = 10;
 let b = 5;
 
@@ -115,7 +115,7 @@ console.log("Division: " + a + " / " + b + " = " + division);
 let modulus = a % b;
 console.log("Modulus: " + a + " % " + b + " = " + modulus);
 
-// Using parentheses to control order of operations
+
 let complexExpression1 = (a + b) * b;
 console.log("Complex Expression 1: (" + a + " + " + b + ") * " + b + " = " + complexExpression1);
 
@@ -146,7 +146,7 @@ console.log("a >= b:", a >= b);
 
 //////////LOGICAL OPERATORS///
 
-// Variables for demonstration
+
 let x = 10;
 let y = 5;
 let z = 10;
